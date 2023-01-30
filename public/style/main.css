@@ -1,3 +1,41 @@
-
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+header nav a h1 span {
+  color: #23D3C0;
+}
+header nav button {
+  background-color: #23D3C0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  list-style: none;
+  margin: 10px;
+  font-weight: 600;
+}
+header ul li a {
+  text-decoration: none;
+  color: grey;
+}
+header ul li:hover a {
+  color: black;
+  border-bottom: 3px solid #23D3C0;
+}
 
 /*# sourceMappingURL=main.css.map */
