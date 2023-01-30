@@ -196,9 +196,66 @@ header ul li:hover a {
 }
 #about #about2 {
   background-color: #EEEEEE;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #about #about2 .container {
   display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+#about #about2 .greenCard {
+  background-color: #23D3C0;
+  color: white;
+  width: 30%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#about #about2 .greenCard h3 {
+  font-size: 35px;
+  width: 100%;
+}
+#about #about2 .greenCard button {
+  background-color: #78ebdf;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#about #about2 .whiteCard {
+  background-color: white;
+  width: 20%;
+  padding: 40px 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#about #about2 .whiteCard i {
+  color: #23D3C0;
+  background-color: rgb(255, 235, 235);
+  padding: 15px 15px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+#about #about2 .whiteCard h4 {
+  color: #1F1F24;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px;
+}
+#about #about2 .whiteCard p {
+  margin: 0 25px;
+  color: grey;
+}
+#about #about2 .whiteCard:hover {
+  margin: 0;
+  padding: 40px 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
