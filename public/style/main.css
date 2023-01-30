@@ -7,6 +7,29 @@
   margin: auto;
 }
 
+.title {
+  text-align: center;
+}
+.title .titleS {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.title .titleL {
+  font-family: "cookie";
+  color: #1F1F24;
+  font-size: 40px;
+  margin: 0%;
+}
+
+.green {
+  color: #23D3C0;
+}
+
+.marginTopBot {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 header {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,7 +54,7 @@ header nav button {
   cursor: pointer;
 }
 header nav button:hover {
-  background-color: rgb(172, 81, 81);
+  background-color: #ac5151;
 }
 header ul {
   display: flex;
@@ -49,6 +72,7 @@ header ul li:hover a {
   color: black;
   border-bottom: 3px solid #23D3C0;
 }
+
 #home {
   background-color: #EEEEEE;
   font-family: Arial, Helvetica, sans-serif;
@@ -76,9 +100,10 @@ header ul li:hover a {
   border-radius: 20px;
   cursor: pointer;
   font-weight: 600;
+  box-shadow: 0px 10px 20px -5px rgba(73, 45, 45, 0.2);
 }
 #home .btnGreen:hover {
-  background-color: rgb(172, 81, 81);
+  background-color: #ac5151;
 }
 #home .btnWatch {
   background-color: rgba(0, 0, 0, 0);
@@ -100,14 +125,74 @@ header ul li:hover a {
   color: #23D3C0;
 }
 #home .btnWatch:hover i {
-  border: 3px solid rgb(172, 81, 81);
-  color: rgb(172, 81, 81);
+  border: 3px solid #ac5151;
+  color: #ac5151;
 }
 #home #imgHome {
   height: 100%;
 }
 #home #imgHome img {
   width: 100%;
+}
+
+#about {
+  width: 100%;
+}
+#about #about1 {
+  width: 100%;
+  display: flex;
+  margin: 50px 0;
+}
+#about #about1 ul {
+  list-style-type: none;
+  padding: 15px;
+}
+#about #about1 li {
+  margin: 10px 0;
+}
+#about #about1 li i {
+  color: #23D3C0;
+}
+#about #about1 p, #about #about1 li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#about #about1 #about1img {
+  width: 60%;
+  position: relative;
+  background-image: url("../../../public/image/about.jpg");
+  margin-right: 50px;
+}
+#about #about1 #about1img #about1imgTxt {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 80%;
+}
+#about #about1 #about1img #about1imgTxt p {
+  text-align: center;
+  font-weight: 600;
+}
+#about #about1 #about1txt {
+  width: 40%;
+}
+#about #about1 #about1txt div {
+  position: relative;
+}
+#about #about1 #about1txt div img {
+  width: 100%;
+}
+#about #about1 #about1txt div i {
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  padding: 15px 18px;
+  color: white;
+  background-color: #23D3C0;
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
