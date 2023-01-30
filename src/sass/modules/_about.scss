@@ -68,6 +68,7 @@
         }
     }
 
+    //ABOUT2
     #about2 {
         background-color: $thisGrey;
         font-family: Arial, Helvetica, sans-serif;
@@ -140,6 +141,37 @@
         .whiteCard:hover {
             margin: 0;
             padding: 40px 10px;
+        }
+    }
+
+    //ABOUT3
+    #about3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , url("../../../public/image/stats-bg.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding: 100px 0;
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        p {
+            font-weight: 600;
+            color: rgba($color: #ffffff, $alpha: 0.6);
         }
     }
 }
