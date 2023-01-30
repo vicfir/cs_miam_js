@@ -1,0 +1,36 @@
+#menu {
+    .navMenu {
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+
+        p {
+            font-size: 20px;
+            margin: 15px;
+            padding: 10px;
+            border-bottom: 2px solid grey;
+            cursor: pointer;
+        }
+
+        .navActive {
+            color: $thisGreen;
+            border-bottom: 2px solid $thisGreen;
+        }
+    }
+
+    .titleMenu {
+        p {
+            margin: 0;
+        }
+        
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            color: $thisGreen;
+            text-align: center;
+            margin: 0;
+        }
+    }
+}

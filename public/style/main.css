@@ -14,11 +14,13 @@ body {
 .title {
   text-align: center;
 }
-.title .titleS {
+
+.titleS {
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
 }
-.title .titleL {
+
+.titleL {
   font-family: "cookie";
   color: #1F1F24;
   font-size: 40px;
@@ -284,6 +286,35 @@ header ul li:hover a {
 #about #about3 p {
   font-weight: 600;
   color: rgba(255, 255, 255, 0.6);
+}
+
+#menu .navMenu {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+#menu .navMenu p {
+  font-size: 20px;
+  margin: 15px;
+  padding: 10px;
+  border-bottom: 2px solid grey;
+  cursor: pointer;
+}
+#menu .navMenu .navActive {
+  color: #23D3C0;
+  border-bottom: 2px solid #23D3C0;
+}
+#menu .titleMenu p {
+  margin: 0;
+}
+#menu .titleMenu h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #23D3C0;
+  text-align: center;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

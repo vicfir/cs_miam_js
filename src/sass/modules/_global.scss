@@ -9,18 +9,18 @@ body {
 
 .title {
     text-align: center;
+}
 
-    .titleS {
-        font-family: Arial, Helvetica, sans-serif;
-        color: grey;
-    }
-    
-    .titleL {
-        font-family: "cookie";
-        color: $thisBlack;
-        font-size: 40px;
-        margin: 0%;
-    }
+.titleS {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.titleL {
+    font-family: "cookie";
+    color: $thisBlack;
+    font-size: 40px;
+    margin: 0%;
 }
 
 .green {
