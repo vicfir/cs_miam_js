@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "cookie";
+  src: url("../../public/fonts/CookiesandmilkRegular-W64Y.ttf");
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 header {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,12 +30,15 @@ header nav button {
   border-radius: 20px;
   cursor: pointer;
 }
+header nav button:hover {
+  background-color: rgb(172, 81, 81);
+}
 header ul {
   display: flex;
 }
 header ul li {
   list-style: none;
-  margin: 10px;
+  margin: 20px;
   font-weight: 600;
 }
 header ul li a {
@@ -36,6 +48,66 @@ header ul li a {
 header ul li:hover a {
   color: black;
   border-bottom: 3px solid #23D3C0;
+}
+#home {
+  background-color: #EEEEEE;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#home .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+#home #txtHome {
+  max-width: 400px;
+}
+#home #txtHome h1 {
+  font-family: "cookie";
+  font-size: 50px;
+}
+#home .btnGreen {
+  background-color: #23D3C0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+#home .btnGreen:hover {
+  background-color: rgb(172, 81, 81);
+}
+#home .btnWatch {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+#home .btnWatch i {
+  margin: 5px;
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: 3px solid #23D3C0;
+  color: #23D3C0;
+}
+#home .btnWatch:hover {
+  color: #23D3C0;
+}
+#home .btnWatch:hover i {
+  border: 3px solid rgb(172, 81, 81);
+  color: rgb(172, 81, 81);
+}
+#home #imgHome {
+  height: 100%;
+}
+#home #imgHome img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
