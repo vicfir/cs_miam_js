@@ -70,7 +70,7 @@ for (let i = 0; i < navSelect.children.length; i++) {
 
 //choice in menu
 let choiceMenu = document.createElement("div");
-choiceMenu.className="choiceMenu";
+choiceMenu.className="container choiceMenu";
 menu.appendChild(choiceMenu);
 
 for (let i = 0; i < 6; i++) {
@@ -80,5 +80,40 @@ for (let i = 0; i < 6; i++) {
 //add img
 let choiceMenuSelect = document.getElementsByClassName("choiceMenu");
 for (let i = 0; i < choiceMenuSelect[0].children.length; i++) {
-    choiceMenuSelect[0].children.item(i).innerHTML=`<img src="./public/image/menu/menu-item-${i+1}.png">`
+    choiceMenuSelect[0].children.item(i).innerHTML=`<img src="./public/image/menu/menu-item-${i+1}.png">`;
+
+    //dish name tag
+    choiceMenuSelect[0].children.item(i).appendChild(document.createElement("h4"));
+    //dish ingrediants tag
+    choiceMenuSelect[0].children.item(i).appendChild(document.createElement("p"));
+    //dish price tag
+    choiceMenuSelect[0].children.item(i).appendChild(document.createElement("h5"));
 }
+
+//dish name text
+let dishNameTags = document.querySelectorAll(".choiceMenu > div > h4");
+console.log(dishNameTags);
+dishNameTags[0].textContent="Magnam Tiste";
+dishNameTags[1].textContent="Aut Luia";
+dishNameTags[2].textContent="Est Eligendi";
+dishNameTags[3].textContent="Eos Luibusdam";
+dishNameTags[4].textContent="Eos Luibusdam";
+dishNameTags[5].textContent="Laboriosam Direva";
+
+//dish ingrediants text
+let dishIngrediantsTags = document.querySelectorAll(".choiceMenu > div > p");
+dishIngrediantsTags[0].textContent="Lorem, deren, trataro, filede, berada";
+dishIngrediantsTags[1].textContent="Lorem, deren, trataro, filede, berada";
+dishIngrediantsTags[2].textContent="Lorem, deren, trataro, filede, berada";
+dishIngrediantsTags[3].textContent="Lorem, deren, trataro, filede, berada";
+dishIngrediantsTags[4].textContent="Lorem, deren, trataro, filede, berada";
+dishIngrediantsTags[5].textContent="Lorem, deren, trataro, filede, berada";
+
+//dish price text
+let dishPriceTags = document.querySelectorAll(".choiceMenu > div > h5");
+dishPriceTags[0].textContent="$5.95";
+dishPriceTags[1].textContent="$14.95";
+dishPriceTags[2].textContent="$8.95";
+dishPriceTags[3].textContent="$12.95";
+dishPriceTags[4].textContent="$12.95";
+dishPriceTags[5].textContent="$9.95";

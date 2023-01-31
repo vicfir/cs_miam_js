@@ -316,5 +316,18 @@ header ul li:hover a {
   text-align: center;
   margin: 0;
 }
+#menu .choiceMenu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#menu .choiceMenu div {
+  width: 25%;
+  margin: 30px;
+}
+#menu .choiceMenu div img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -33,4 +33,20 @@
             margin: 0;
         }
     }
+
+    .choiceMenu {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+
+        div {
+            width: 25%;
+            margin: 30px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
 }
