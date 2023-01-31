@@ -38,6 +38,11 @@ body {
 
 header {
   font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 header nav {
   display: flex;
@@ -84,6 +89,7 @@ header ul .btnActiveNav {
 }
 
 #home {
+  margin-top: 90px;
   background-color: #EEEEEE;
   font-family: Arial, Helvetica, sans-serif;
 }
