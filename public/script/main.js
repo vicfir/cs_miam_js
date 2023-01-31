@@ -250,7 +250,18 @@ for (let i = 0; i < navSelect.children.length; i++) {
     })
 }
 
+//--------------------------------------------------
+//nav btn
+let btnNav = document.querySelectorAll(".navList > li > a");
+
+for (let i = 0; i < btnNav.length; i++) {
+    btnNav[i].addEventListener("click",(e)=>{
+        document.querySelector(".btnActiveNav").className="";
+        e.target.className="btnActiveNav";
+    })
+}
 // ---------------------------------------------------
+//testimonial carousel
 let testimonialCarouselBtn = document.querySelectorAll(".carouselBtn > button");
 let carouselItems = document.querySelector(".containerCarousel");
 let btnValue = document.querySelector(".carouselBtn > button");

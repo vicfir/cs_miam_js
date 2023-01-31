@@ -78,6 +78,10 @@ header ul li:hover a {
   color: black;
   border-bottom: 3px solid #23D3C0;
 }
+header ul .btnActiveNav {
+  color: black;
+  border-bottom: 3px solid #23D3C0;
+}
 
 #home {
   background-color: #EEEEEE;

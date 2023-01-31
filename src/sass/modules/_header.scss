@@ -52,8 +52,9 @@ header {
             }
         }
 
-        // .active {
-
-        // }
+        .btnActiveNav {
+            color: black;
+            border-bottom: 3px solid $thisGreen;
+        }
     }
 }
