@@ -407,4 +407,42 @@ header ul li:hover a {
   transform: scale(1.1);
 }
 
+#book .bookTable {
+  display: flex;
+  margin: 50px 0;
+}
+#book .bookTable .bookImg {
+  width: 33%;
+}
+#book .bookTable .bookImg img {
+  width: 100%;
+}
+#book .bookTable .bookForm {
+  width: 67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 40px;
+  background-color: #EEEEEE;
+}
+#book .bookTable .bookForm .bookFormInput {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#book .bookTable .bookForm .bookFormInput input {
+  width: 30%;
+  height: 40px;
+  margin: 10px 0;
+}
+#book .bookTable .bookForm textarea {
+  margin: 10px 0;
+  width: 99%;
+}
+#book .bookTable .bookForm button {
+  margin: 10px 0;
+}
+
 /*# sourceMappingURL=main.css.map */

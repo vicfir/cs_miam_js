@@ -1,0 +1,46 @@
+#book {
+    .bookTable {
+        display: flex;
+        margin: 50px 0;
+
+        .bookImg {
+            width: 33%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .bookForm {
+            width: 67%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 40px;
+            background-color: $thisGrey;
+
+            .bookFormInput {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                input {
+                    width: 30%;
+                    height: 40px;
+                    margin: 10px 0;
+                }
+            }
+
+            textarea {
+                margin: 10px 0;
+                width: 99%;
+            }
+
+            button {
+                margin: 10px 0;
+            }
+        }
+    }
+}
