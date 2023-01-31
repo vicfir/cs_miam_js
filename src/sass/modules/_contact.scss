@@ -1,0 +1,97 @@
+#contact {
+    width: 100%;
+
+    iframe{
+        margin-top: 50px;
+    }
+
+    .contactInfo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+
+        .contactInfoInfo {
+            width: 49%;
+            background-color: $thisGrey;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            padding: 20px 0;
+
+            i {
+                background-color: $thisGreen;
+                color: white;
+                padding: 10px;
+                border-radius: 20px;
+                font-size: 20px;
+                margin-left: 20px;
+            }
+
+            div {
+                margin-left: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+
+                h4 {
+                    margin: 5px;
+                    color: gray;
+                }
+
+                p {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+    .contactForm {
+        width: 100%;
+        box-shadow: 0px 0px 26px -7px rgba(0,0,0,0.2);
+        padding: 10px 0;
+        margin-top: 30px;
+        .conteneurContact {
+            margin: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                input {
+                    width: 48%;
+                    height: 40px;
+                    margin: 10px 0;
+                }
+            }
+
+            .w100 {
+                width: 100%;
+                height: 40px;
+                margin: 10px 0;
+            }
+
+            textarea {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            button {
+                margin: 10px 0;
+                background-color: $thisGreen;
+                color: white;
+                border: none;
+                padding: 10px 40px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: $thisBrown;
+            }
+        }
+    }
+}

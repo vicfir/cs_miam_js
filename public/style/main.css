@@ -462,4 +462,87 @@ header ul li:hover a {
   padding: 50px 0;
 }
 
+#contact {
+  width: 100%;
+}
+#contact iframe {
+  margin-top: 50px;
+}
+#contact .contactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+#contact .contactInfo .contactInfoInfo {
+  width: 49%;
+  background-color: #EEEEEE;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+#contact .contactInfo .contactInfoInfo i {
+  background-color: #23D3C0;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+#contact .contactInfo .contactInfoInfo div {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contact .contactInfo .contactInfoInfo div h4 {
+  margin: 5px;
+  color: gray;
+}
+#contact .contactInfo .contactInfoInfo div p {
+  margin: 5px;
+}
+#contact .contactForm {
+  width: 100%;
+  box-shadow: 0px 0px 26px -7px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  margin-top: 30px;
+}
+#contact .contactForm .conteneurContact {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact .contactForm .conteneurContact div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#contact .contactForm .conteneurContact div input {
+  width: 48%;
+  height: 40px;
+  margin: 10px 0;
+}
+#contact .contactForm .conteneurContact .w100 {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+}
+#contact .contactForm .conteneurContact textarea {
+  width: 100%;
+  margin: 10px 0;
+}
+#contact .contactForm .conteneurContact button {
+  margin: 10px 0;
+  background-color: #23D3C0;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#contact .contactForm .conteneurContact button:hover {
+  background-color: #ac5151;
+}
+
 /*# sourceMappingURL=main.css.map */
