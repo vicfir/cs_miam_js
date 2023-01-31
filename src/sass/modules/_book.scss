@@ -40,6 +40,16 @@
 
             button {
                 margin: 10px 0;
+                background-color: $thisGreen;
+                color: white;
+                border: none;
+                padding: 10px 40px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: $thisBrown;
             }
         }
     }

@@ -443,6 +443,15 @@ header ul li:hover a {
 }
 #book .bookTable .bookForm button {
   margin: 10px 0;
+  background-color: #23D3C0;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#book .bookTable .bookForm button:hover {
+  background-color: #ac5151;
 }
 
 /*# sourceMappingURL=main.css.map */
