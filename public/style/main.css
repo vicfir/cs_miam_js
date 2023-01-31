@@ -346,4 +346,44 @@ header ul li:hover a {
   margin: 0;
 }
 
+#testimonials {
+  background-color: #EEEEEE;
+  padding: 100px 0;
+}
+
+#chefs {
+  background-color: #EEEEEE;
+  padding: 100px 0;
+}
+#chefs #chefsCards {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+#chefs #chefsCards .cardChef {
+  width: 30%;
+  background-color: white;
+}
+#chefs #chefsCards .cardChef .chefImg {
+  position: relative;
+}
+#chefs #chefsCards .cardChef .chefImg img {
+  width: 100%;
+}
+#chefs #chefsCards .cardChef .chefImg svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#chefs #chefsCards .cardChef .chefTxt {
+  text-align: center;
+  padding: 0px 30px 30px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#chefs #chefsCards .cardChef .chefTxt h5 {
+  color: grey;
+  margin: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
