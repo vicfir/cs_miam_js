@@ -254,9 +254,12 @@ for (let i = 0; i < navSelect.children.length; i++) {
 let testimonialCarouselBtn = document.querySelectorAll(".carouselBtn > button");
 let carouselItems = document.querySelector(".containerCarousel");
 let btnValue = document.querySelector(".carouselBtn > button");
-
+//btn carousel testimonial
 for (let i = 0; i < testimonialCarouselBtn.length; i++) {
     testimonialCarouselBtn[i].addEventListener("click", ()=>{
         carouselItems.style.transform = `translateX(${-(testimonialCarouselBtn[i].value)*25}%)`;
+        //btn active color
+        document.querySelector(".btnActive").className="";
+        testimonialCarouselBtn[i].className="btnActive";
     })
 }

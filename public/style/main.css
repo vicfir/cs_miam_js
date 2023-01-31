@@ -360,18 +360,61 @@ header ul li:hover a {
 }
 #testimonials .overflowHiden .containerCarousel .carouselItem {
   width: 100%;
+  margin-top: 50px;
 }
 #testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer {
-  width: 80%;
+  width: 70%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
-#testimonials .carouselBtn div {
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .greenLine {
+  width: 6px;
+  height: 150px;
+  background-color: #23D3C0;
+  margin-right: 20px;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText h4 {
+  margin: 10px 0 0 0;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText p {
+  margin: 0;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText .star {
+  color: rgb(253, 207, 0);
+  margin-top: 10px;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText .fa-solid {
+  color: red;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemImg {
+  margin-left: 20px;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemImg img {
+  height: 150px;
+  border-radius: 200px;
+  border: 3px solid white;
+}
+#testimonials .carouselBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#testimonials .carouselBtn button {
   background-color: grey;
   width: 10px;
   height: 10px;
   border-radius: 20px;
+  border: none;
   cursor: pointer;
+  margin: 5px;
+}
+#testimonials .carouselBtn .btnActive {
+  background-color: #23D3C0;
 }
 
 #chefs {

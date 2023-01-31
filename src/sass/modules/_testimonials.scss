@@ -13,24 +13,75 @@
 
             .carouselItem {
                 width: 100%;
+                margin-top: 50px;
                 // transform: translateX(-100%);
 
                 .carouselItemContainer {
-                    width: 80%;
+                    width: 70%;
                     display: flex;
+                    justify-content: center;
+                    align-items: center;
                     margin: auto;
+
+                    .greenLine {
+                        width: 6px;
+                        height: 150px;
+                        background-color: $thisGreen;
+                        margin-right: 20px;
+                    }
+
+                    .carouselItemText {
+                        font-family: Arial, Helvetica, sans-serif;
+
+                        h4 {
+                            margin: 10px 0 0 0;
+                        }
+
+                        p {
+                            margin: 0;
+                        }
+
+                        .star {
+                            color: rgb(253, 207, 0);
+                            margin-top: 10px;
+                        }
+
+                        .fa-solid {
+                            color: red;
+                        }
+                    }
+
+                    .carouselItemImg {
+                        margin-left: 20px;
+
+                        img {
+                            height: 150px;
+                            border-radius: 200px;
+                            border: 3px solid white;
+                        }
+                    }
                 }
             }
         }
     }
 
     .carouselBtn {
-        div {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        button {
             background-color: grey;
             width: 10px;
             height: 10px;
             border-radius: 20px;
+            border: none;
             cursor: pointer;
+            margin: 5px;
+        }
+
+        .btnActive {
+            background-color: $thisGreen;
         }
     }
 }
