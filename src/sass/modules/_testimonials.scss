@@ -2,4 +2,35 @@
     background-color: $thisGrey;
     padding: 100px 0;
 
+    .overflowHiden {
+        width: 1200px;
+        overflow: hidden;
+
+        .containerCarousel {
+            display: flex;
+            width: 400%;
+            transition-duration: 1s;
+
+            .carouselItem {
+                width: 100%;
+                // transform: translateX(-100%);
+
+                .carouselItemContainer {
+                    width: 80%;
+                    display: flex;
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    .carouselBtn {
+        div {
+            background-color: grey;
+            width: 10px;
+            height: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    }
 }

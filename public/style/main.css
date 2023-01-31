@@ -349,6 +349,30 @@ header ul li:hover a {
   background-color: #EEEEEE;
   padding: 100px 0;
 }
+#testimonials .overflowHiden {
+  width: 1200px;
+  overflow: hidden;
+}
+#testimonials .overflowHiden .containerCarousel {
+  display: flex;
+  width: 400%;
+  transition-duration: 1s;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem {
+  width: 100%;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+#testimonials .carouselBtn div {
+  background-color: grey;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
 #chefs {
   background-color: #EEEEEE;
