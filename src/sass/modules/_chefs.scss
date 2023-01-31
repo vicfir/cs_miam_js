@@ -24,6 +24,27 @@
                     left: 0;
                     width: 100%;
                 }
+
+                .chefSocial {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: rgba($color: #ffffff, $alpha: 0.5);
+                    padding: 5px;
+                    border-radius: 5px;
+
+                    i {
+                        font-size: 20px;
+                        margin: 5px;
+                        color: rgba($color: #5d5d5d, $alpha: 0.5);
+                    }
+
+                    i:hover {
+                        color: rgba($color: #5d5d5d, $alpha: 1.0);
+                    }
+                }
             }
 
             .chefTxt {
@@ -36,6 +57,10 @@
                     margin: 0;
                 }
             }
+        }
+
+        .cardChef:hover {
+            transform: scale(1.1);
         }
     }
 }

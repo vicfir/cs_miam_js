@@ -376,6 +376,24 @@ header ul li:hover a {
   left: 0;
   width: 100%;
 }
+#chefs #chefsCards .cardChef .chefImg .chefSocial {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+#chefs #chefsCards .cardChef .chefImg .chefSocial i {
+  font-size: 20px;
+  margin: 5px;
+  color: rgba(93, 93, 93, 0.5);
+}
+#chefs #chefsCards .cardChef .chefImg .chefSocial i:hover {
+  color: #5d5d5d;
+}
 #chefs #chefsCards .cardChef .chefTxt {
   text-align: center;
   padding: 0px 30px 30px 30px;
@@ -384,6 +402,9 @@ header ul li:hover a {
 #chefs #chefsCards .cardChef .chefTxt h5 {
   color: grey;
   margin: 0;
+}
+#chefs #chefsCards .cardChef:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=main.css.map */
