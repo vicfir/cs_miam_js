@@ -260,8 +260,7 @@ header ul li:hover a {
   color: grey;
 }
 #about #about2 .whiteCard:hover {
-  margin: 0;
-  padding: 40px 10px;
+  transform: scale(1.1);
 }
 #about #about3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../public/image/stats-bg.jpg");
