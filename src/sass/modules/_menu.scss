@@ -43,9 +43,27 @@
         div {
             width: 25%;
             margin: 30px;
-
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
             img{
                 width: 100%;
+                margin: 30px 0;
+            }
+
+            h4{
+                font-size: 20px;
+                margin: 0;
+            }
+
+            p {
+                color: grey;
+                margin: 15px 0;
+            }
+
+            h5{
+                color: $thisGreen;
+                font-size: 20px;
+                margin: 0;
             }
         }
     }
