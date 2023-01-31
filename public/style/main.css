@@ -377,6 +377,7 @@ header ul li:hover a {
   width: 100%;
 }
 #chefs #chefsCards .cardChef .chefImg .chefSocial {
+  opacity: 0;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -405,6 +406,9 @@ header ul li:hover a {
 }
 #chefs #chefsCards .cardChef:hover {
   transform: scale(1.1);
+}
+#chefs #chefsCards .cardChef:hover .chefSocial {
+  opacity: 1;
 }
 
 #book .bookTable {
@@ -452,6 +456,11 @@ header ul li:hover a {
 }
 #book .bookTable .bookForm button:hover {
   background-color: #ac5151;
+}
+
+#gallery {
+  background-color: #EEEEEE;
+  padding: 50px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
