@@ -251,7 +251,7 @@ for (let i = 0; i < navSelect.children.length; i++) {
 }
 
 //--------------------------------------------------
-//nav btn
+//nav btn active
 let btnNav = document.querySelectorAll(".navList > li > a");
 
 for (let i = 0; i < btnNav.length; i++) {
