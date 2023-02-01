@@ -1,3 +1,49 @@
 #events {
+
+    .eventsCarousel {
+        width: 100%;
+        overflow: hidden;
+        .eventsView {
+            width: 172%;
+            display: flex;
+            transition-duration: 1s;
+            // transform: translateX(-20%);
+
+            .eventsCarouselItem {
+                position: relative;
+                width: 32%;
+                margin-right: 2%;
     
+                .eventsImg {
+                    position: absolute;
+                    top: 0;
+                    z-index: -1;
+    
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .carouselBtnEvents {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        button {
+            background-color: grey;
+            width: 10px;
+            height: 10px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .btnActive {
+            background-color: $thisGreen;
+        }
+    }
 }

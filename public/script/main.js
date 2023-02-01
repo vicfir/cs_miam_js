@@ -264,7 +264,7 @@ for (let i = 0; i < btnNav.length; i++) {
 //testimonial carousel
 let testimonialCarouselBtn = document.querySelectorAll(".carouselBtn > button");
 let carouselItems = document.querySelector(".containerCarousel");
-let btnValue = document.querySelector(".carouselBtn > button");
+
 //btn carousel testimonial
 for (let i = 0; i < testimonialCarouselBtn.length; i++) {
     testimonialCarouselBtn[i].addEventListener("click", ()=>{
@@ -272,5 +272,19 @@ for (let i = 0; i < testimonialCarouselBtn.length; i++) {
         //btn active color
         document.querySelector(".btnActive").className="";
         testimonialCarouselBtn[i].className="btnActive";
+    })
+}
+//-------------------------------------------------------
+//events carousel
+let eventsCarouselBtn = document.querySelectorAll(".carouselBtnEvents > button");
+let eventsView = document.querySelector(".eventsView");
+
+// eventsCarouselBtn.addEventListener("click", ()=>{
+//     eventsView.style.transform = "translateX(-20%)"
+// })
+
+for (let i = 0; i < eventsCarouselBtn.length; i++) {
+    eventsCarouselBtn[i].addEventListener("click", ()=>{
+        eventsView.style.transform = `translateX(${-(eventsCarouselBtn[i].value)*20}%)`
     })
 }

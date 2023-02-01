@@ -427,6 +427,46 @@ header ul .btnActiveNav {
   background-color: #23D3C0;
 }
 
+#events .eventsCarousel {
+  width: 100%;
+  overflow: hidden;
+}
+#events .eventsCarousel .eventsView {
+  width: 172%;
+  display: flex;
+  transition-duration: 1s;
+}
+#events .eventsCarousel .eventsView .eventsCarouselItem {
+  position: relative;
+  width: 32%;
+  margin-right: 2%;
+}
+#events .eventsCarousel .eventsView .eventsCarouselItem .eventsImg {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+#events .eventsCarousel .eventsView .eventsCarouselItem .eventsImg img {
+  width: 100%;
+}
+#events .carouselBtnEvents {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#events .carouselBtnEvents button {
+  background-color: grey;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+#events .carouselBtnEvents .btnActive {
+  background-color: #23D3C0;
+}
+
 #chefs {
   background-color: #EEEEEE;
   padding: 100px 0;
