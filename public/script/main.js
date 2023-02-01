@@ -307,3 +307,5 @@ for (let i = 0; i < galleryCarouselBtn.length; i++) {
         galleryItems[i].className="imgActiveGallery"
     })
 }
+//--------------------------------------------------------
+//nav modal
