@@ -602,26 +602,31 @@ header ul .btnActiveNav {
   background-color: #EEEEEE;
   padding: 50px 0;
 }
-#gallery .galleryCarousel {
+#gallery .container {
   width: 100%;
+  overflow: hidden;
 }
-#gallery .galleryCarousel .galleryCarouselItems {
+#gallery .container .galleryCarousel {
+  width: 100%;
+  transform: translateX(40%);
+}
+#gallery .container .galleryCarousel .galleryCarouselItems {
   display: flex;
   width: 162%;
 }
-#gallery .galleryCarousel .galleryCarouselItems .galleryCarouselItem {
+#gallery .container .galleryCarousel .galleryCarouselItems .galleryCarouselItem {
   width: 19%;
   margin-right: 1%;
 }
-#gallery .galleryCarousel .galleryCarouselItems .galleryCarouselItem img {
+#gallery .container .galleryCarousel .galleryCarouselItems .galleryCarouselItem img {
   width: 100%;
 }
-#gallery .carouselBtnGallery {
+#gallery .container .carouselBtnGallery {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
-#gallery .carouselBtnGallery button {
+#gallery .container .carouselBtnGallery button {
   background-color: grey;
   width: 10px;
   height: 10px;
@@ -630,7 +635,7 @@ header ul .btnActiveNav {
   cursor: pointer;
   margin: 5px;
 }
-#gallery .carouselBtnGallery .btnActiveGallery {
+#gallery .container .carouselBtnGallery .btnActiveGallery {
   background-color: #23D3C0;
 }
 

@@ -287,3 +287,22 @@ for (let i = 0; i < eventsCarouselBtn.length; i++) {
         eventsCarouselBtn[i].className="btnActiveEvents";
     })
 }
+//-------------------------------------------------------
+//events carousel
+let galleryCarouselBtn = document.querySelectorAll(".carouselBtnGallery > button");
+let galleryCarousel = document.querySelector(".galleryCarousel");
+let galleryItems = document.querySelectorAll(".galleryCarouselItem");
+
+console.log(galleryCarouselBtn);
+console.log(galleryItems);
+
+for (let i = 0; i < galleryCarouselBtn.length; i++) {
+    galleryCarouselBtn[i].addEventListener("click", ()=>{
+        galleryCarousel.style.transform = `translateX(${40 -(galleryCarouselBtn[i].value)*20}%)`
+        //btn active color
+        document.querySelector(".btnActiveGallery").className="";
+        galleryCarouselBtn[i].className="btnActiveGallery";
+        //img active
+        document.querySelector(".imgActiveGallery").className="";
+    })
+}
