@@ -790,4 +790,11 @@ header ul .btnActiveNav {
   background-color: #ac5151;
 }
 
+footer {
+  background-color: #1F1F24;
+}
+footer .footerItem {
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
