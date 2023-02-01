@@ -1,4 +1,43 @@
 #gallery {
     background-color: $thisGrey;
     padding: 50px 0;
+
+    .galleryCarousel {
+        width: 100%;
+        // overflow: hidden;
+
+        .galleryCarouselItems {
+            display: flex;
+            width: 162%;
+
+            .galleryCarouselItem {
+                width: 19%;
+                margin-right: 1%;
+                
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .carouselBtnGallery {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        button {
+            background-color: grey;
+            width: 10px;
+            height: 10px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .btnActiveGallery {
+            background-color: $thisGreen;
+        }
+    }
 }
