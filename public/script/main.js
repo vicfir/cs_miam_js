@@ -291,7 +291,7 @@ for (let i = 0; i < eventsCarouselBtn.length; i++) {
 //events carousel
 let galleryCarouselBtn = document.querySelectorAll(".carouselBtnGallery > button");
 let galleryCarousel = document.querySelector(".galleryCarousel");
-let galleryItems = document.querySelectorAll(".galleryCarouselItem");
+let galleryItems = document.querySelectorAll(".galleryCarouselItem > img");
 
 console.log(galleryCarouselBtn);
 console.log(galleryItems);
@@ -304,5 +304,6 @@ for (let i = 0; i < galleryCarouselBtn.length; i++) {
         galleryCarouselBtn[i].className="btnActiveGallery";
         //img active
         document.querySelector(".imgActiveGallery").className="";
+        galleryItems[i].className="imgActiveGallery"
     })
 }
