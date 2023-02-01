@@ -279,12 +279,11 @@ for (let i = 0; i < testimonialCarouselBtn.length; i++) {
 let eventsCarouselBtn = document.querySelectorAll(".carouselBtnEvents > button");
 let eventsView = document.querySelector(".eventsView");
 
-// eventsCarouselBtn.addEventListener("click", ()=>{
-//     eventsView.style.transform = "translateX(-20%)"
-// })
-
 for (let i = 0; i < eventsCarouselBtn.length; i++) {
     eventsCarouselBtn[i].addEventListener("click", ()=>{
         eventsView.style.transform = `translateX(${-(eventsCarouselBtn[i].value)*20}%)`
+        //btn active color
+        document.querySelector(".btnActiveEvents").className="";
+        eventsCarouselBtn[i].className="btnActiveEvents";
     })
 }
