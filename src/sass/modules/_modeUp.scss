@@ -3,6 +3,7 @@
     bottom: 30px;
     right: 30px;
     display: flex;
+    z-index: 1;
 
     .changeMode {
         background-color: $thisGreen;

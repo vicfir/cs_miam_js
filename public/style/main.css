@@ -93,6 +93,7 @@ header ul .btnActiveNav {
   bottom: 30px;
   right: 30px;
   display: flex;
+  z-index: 1;
 }
 #modeUp .changeMode {
   background-color: #23D3C0;
