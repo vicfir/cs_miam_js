@@ -153,6 +153,9 @@ header ul .btnActiveNav {
 .darkMode #events .titleL {
   color: white;
 }
+.darkMode #book .titleL {
+  color: white;
+}
 
 #myModal {
   display: none; /* Hidden by default */
@@ -687,6 +690,7 @@ header ul .btnActiveNav {
 }
 #book .bookTable .bookImg img {
   width: 100%;
+  display: block;
 }
 #book .bookTable .bookForm {
   width: 67%;
