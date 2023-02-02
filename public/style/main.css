@@ -296,6 +296,50 @@ header ul .btnActiveNav {
   width: 100%;
 }
 
+@media only screen and (max-width: 1250px) {
+  #home .container {
+    width: 100%;
+  }
+  #home .container #txtHome {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+    padding-left: 150px;
+  }
+  #home .container #imgHome {
+    display: flex;
+    align-items: center;
+  }
+  #home .container #imgHome img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #home .container {
+    flex-direction: column;
+    margin: 0;
+  }
+  #home .container #txtHome {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+  #home .container #imgHome {
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #home .container {
+    width: 80%;
+    margin: auto;
+  }
+  #home .container #txtHome {
+    width: 100%;
+  }
+}
 #about {
   width: 100%;
 }

@@ -70,3 +70,63 @@
         }
     }
 }
+
+@media only screen and (max-width: 1250px) {
+#home {
+    .container {
+        width: 100%;
+
+        #txtHome {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            max-width: none;
+            padding-left: 150px;
+        }
+
+        #imgHome {
+            display: flex;
+            align-items: center;
+            
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
+}
+
+@media only screen and (max-width: 800px) {
+#home {
+    .container {
+        flex-direction: column;
+        margin: 0;
+
+        #txtHome {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-left: 0;
+        }
+
+        #imgHome {
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+    }
+}
+}
+
+@media only screen and (max-width: 600px) {
+#home {
+    .container {
+        width: 80%;
+        margin: auto;
+
+        #txtHome {
+            width: 100%;
+        }
+    }
+}
+}
