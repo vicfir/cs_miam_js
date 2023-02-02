@@ -35,5 +35,34 @@
 //DARK MODE--------------------------------------------
 .darkMode {
     background-color: black;
-    color: white;
+
+    header {
+        background-color: black;
+
+        h1 {
+            color: white;
+        }
+
+        .btnActiveNav {
+            color: white;
+        }
+
+    }
+    
+    #about {
+        color: white;
+
+        .titleL {
+            color: white;
+        }
+
+        #about1imgTxt {
+            p {
+                color: black;
+            }
+            .green {
+                color: ;
+            }
+        }
+    }
 }
