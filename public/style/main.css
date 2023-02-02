@@ -149,6 +149,9 @@ header ul .btnActiveNav {
 .darkMode #menu .titleL {
   color: white;
 }
+.darkMode #events .titleL {
+  color: white;
+}
 
 #myModal {
   display: none; /* Hidden by default */
