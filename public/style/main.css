@@ -298,27 +298,22 @@ header ul .btnActiveNav {
 
 @media only screen and (max-width: 1250px) {
   #home .container {
-    width: 100%;
+    max-width: 800px;
   }
   #home .container #txtHome {
-    width: 50%;
     display: flex;
     flex-direction: column;
     max-width: none;
-    padding-left: 150px;
   }
   #home .container #imgHome {
     display: flex;
     align-items: center;
   }
-  #home .container #imgHome img {
-    width: 50%;
-  }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   #home .container {
     flex-direction: column;
-    margin: 0;
+    max-width: 550px;
   }
   #home .container #txtHome {
     justify-content: center;
@@ -329,6 +324,9 @@ header ul .btnActiveNav {
   #home .container #imgHome {
     justify-content: center;
     margin-top: 50px;
+  }
+  #home .container #imgHome img {
+    width: 50%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -486,6 +484,11 @@ header ul .btnActiveNav {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media only screen and (max-width: 1250px) {
+  #about .container {
+    max-width: 900px;
+  }
+}
 #menu .navMenu {
   margin: 50px 0;
   display: flex;
