@@ -1,0 +1,33 @@
+#modeUp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+
+    .changeMode {
+        background-color: $thisGreen;
+        color: white;
+        padding: 10px 12px;
+        font-size: 20px;
+        border-radius: 25px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .changeMode:hover {
+        background-color: $thisBrown;
+    }
+
+    .pageUp {
+        background-color: $thisGreen; 
+        color: white;       
+        padding: 10px 14px;
+        font-size: 20px;
+        border-radius: 25px;
+        margin: 10px;
+        cursor: pointer;
+
+    }
+    .pageUp:hover {
+        background-color: $thisBrown;
+    }
+}

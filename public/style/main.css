@@ -88,6 +88,37 @@ header ul .btnActiveNav {
   border-bottom: 3px solid #23D3C0;
 }
 
+#modeUp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+}
+#modeUp .changeMode {
+  background-color: #23D3C0;
+  color: white;
+  padding: 10px 12px;
+  font-size: 20px;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+#modeUp .changeMode:hover {
+  background-color: #ac5151;
+}
+#modeUp .pageUp {
+  background-color: #23D3C0;
+  color: white;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+#modeUp .pageUp:hover {
+  background-color: #ac5151;
+}
+
 #myModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
