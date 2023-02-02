@@ -344,3 +344,16 @@ btnMode.addEventListener("click",()=>{
 
     body.classList.toggle("darkMode");
 })
+
+//------------------------------------------------------------
+//bureger menu
+let burger = document.getElementById("burger");
+let menuNav = document.querySelector(".navList");
+
+burger.addEventListener("click", ()=>{
+    if (menuNav.style.display === "block") {
+        menuNav.style.display = "none";
+    } else {
+        menuNav.style.display = "block";
+    }
+})

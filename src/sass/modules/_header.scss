@@ -35,6 +35,11 @@ header {
         }
     }
 
+    #burger {
+        text-align: center;
+        display: none;
+    }
+
     ul {
         display: flex;
 
@@ -65,13 +70,18 @@ header {
 }
 
 @media only screen and (max-width: 1250px) {
+    header nav {
+        align-items: baseline;
+    }
+    header ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
 
-}
-
-@media only screen and (max-width: 850px) {
-    
-}
-
-@media only screen and (max-width: 600px) {
-
+    header #burger {
+        display: block;
+        cursor: pointer;
+    }
 }

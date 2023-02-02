@@ -67,6 +67,10 @@ header nav button {
 header nav button:hover {
   background-color: #ac5151;
 }
+header #burger {
+  text-align: center;
+  display: none;
+}
 header ul {
   display: flex;
 }
@@ -88,6 +92,21 @@ header ul .btnActiveNav {
   border-bottom: 3px solid #23D3C0;
 }
 
+@media only screen and (max-width: 1250px) {
+  header nav {
+    align-items: baseline;
+  }
+  header ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    display: none;
+  }
+  header #burger {
+    display: block;
+    cursor: pointer;
+  }
+}
 #modeUp {
   position: fixed;
   bottom: 30px;
@@ -681,6 +700,24 @@ header ul .btnActiveNav {
   background-color: #23D3C0;
 }
 
+@media only screen and (max-width: 1250px) {
+  #testimonials .overflowHiden {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #testimonials .overflowHiden {
+    max-width: 550px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #testimonials .overflowHiden {
+    width: 80%;
+  }
+  #testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemImg {
+    display: none;
+  }
+}
 #events .eventsCarousel {
   width: 100%;
   overflow: hidden;

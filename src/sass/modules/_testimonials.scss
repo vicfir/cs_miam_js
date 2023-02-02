@@ -87,13 +87,23 @@
 }
 
 @media only screen and (max-width: 1250px) {
-
+    #testimonials .overflowHiden {
+        width: 800px;
+    }
 }
 
 @media only screen and (max-width: 850px) {
-    
+    #testimonials .overflowHiden {
+        max-width: 550px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
+    #testimonials .overflowHiden {
+        width: 80%;
+    }
 
+    #testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemImg {
+        display: none;
+    }
 }
