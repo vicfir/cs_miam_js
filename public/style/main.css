@@ -119,6 +119,11 @@ header ul .btnActiveNav {
   background-color: #ac5151;
 }
 
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
 #myModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
