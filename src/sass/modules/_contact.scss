@@ -101,9 +101,20 @@
 }
 
 @media only screen and (max-width: 850px) {
-    
+    #contact .contactInfo {
+        flex-direction: column;
+    }
+    #contact .contactInfo .contactInfoInfo {
+        width: 100%;
+    }
+
+    #contact .contactInfo .contactInfoInfo div p {
+        margin: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-
+    #contact iframe {
+        height: 200px;
+    }
 }
