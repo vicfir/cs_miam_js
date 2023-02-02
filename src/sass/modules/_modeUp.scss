@@ -13,6 +13,10 @@
         border-radius: 25px;
         margin: 10px;
         cursor: pointer;
+
+        .fa-sun {
+            display: none;
+        }
     }
     .changeMode:hover {
         background-color: $thisBrown;
@@ -48,6 +52,16 @@
             color: white;
         }
 
+    }
+
+    #modeUp {
+        .fa-moon {
+            display: none;
+        }
+
+        .fa-sun {
+            display: inline;
+        }
     }
     
     #about {

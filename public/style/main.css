@@ -104,6 +104,9 @@ header ul .btnActiveNav {
   margin: 10px;
   cursor: pointer;
 }
+#modeUp .changeMode .fa-sun {
+  display: none;
+}
 #modeUp .changeMode:hover {
   background-color: #ac5151;
 }
@@ -131,6 +134,12 @@ header ul .btnActiveNav {
 }
 .darkMode header .btnActiveNav {
   color: white;
+}
+.darkMode #modeUp .fa-moon {
+  display: none;
+}
+.darkMode #modeUp .fa-sun {
+  display: inline;
 }
 .darkMode #about {
   color: white;
