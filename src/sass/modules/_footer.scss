@@ -65,7 +65,29 @@ footer {
 }
 
 @media only screen and (max-width: 850px) {
+    footer {
+        .container {
+            flex-direction: column;
+        }  
+    }
+
+    footer .footerItem , footer .footerSocial{
+        padding: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    footer .footerSocial {
+        margin: 20px;
+        align-items: center;
+    }
     
+    .socialIcones {
+        margin-left: 20px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
