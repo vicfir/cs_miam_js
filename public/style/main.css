@@ -143,6 +143,12 @@ header ul .btnActiveNav {
 .darkMode #about #about1imgTxt .green {
   color: #23D3C0;
 }
+.darkMode #menu {
+  color: white;
+}
+.darkMode #menu .titleL {
+  color: white;
+}
 
 #myModal {
   display: none; /* Hidden by default */
