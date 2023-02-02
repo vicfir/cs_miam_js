@@ -68,3 +68,27 @@
         }
     }
 }
+
+@media only screen and (max-width: 1250px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #chefs #chefsCards {
+        flex-direction: column;
+    }
+    #chefs #chefsCards .cardChef{
+        width: 50%;
+        margin: 30px auto;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #chefs #chefsCards .cardChef{
+        width: 80%;
+        margin: 30px auto;
+    }
+}
