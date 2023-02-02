@@ -486,7 +486,69 @@ header ul .btnActiveNav {
 
 @media only screen and (max-width: 1250px) {
   #about .container {
-    max-width: 900px;
+    max-width: 800px;
+  }
+  #about .greenCard h3 {
+    margin: 0;
+  }
+  #about #about2 .whiteCard h4 {
+    margin: 10px;
+  }
+  #about #about2 .whiteCard p {
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #about .container {
+    max-width: 550px;
+  }
+  #about2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #about2 .container {
+    flex-direction: column;
+    max-width: 550px;
+  }
+  #about #about2 .greenCard {
+    width: 100%;
+    padding: 0;
+  }
+  #about #about2 .greenCard h3 {
+    padding: 30px;
+    width: auto;
+  }
+  #about #about2 .greenCard p {
+    padding: 30px;
+  }
+  #about #about2 .greenCard button {
+    margin-bottom: 30px;
+  }
+  #about #about2 .whiteCard {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #about .container {
+    max-width: 80%;
+    margin: auto;
+  }
+  #about #about1 {
+    flex-direction: column;
+  }
+  #about #about1 #about1img {
+    width: 100%;
+    height: 200px;
+  }
+  #about #about1 #about1txt {
+    width: 100%;
+  }
+  #about #about2 .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #about #about3 .container {
+    flex-direction: column;
   }
 }
 #menu .navMenu {
