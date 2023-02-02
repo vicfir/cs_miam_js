@@ -156,6 +156,12 @@ header ul .btnActiveNav {
 .darkMode #book .titleL {
   color: white;
 }
+.darkMode #contact .titleL {
+  color: white;
+}
+.darkMode #contact .contactForm {
+  background-color: #EEEEEE;
+}
 
 #myModal {
   display: none; /* Hidden by default */
